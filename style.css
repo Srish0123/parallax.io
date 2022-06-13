@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: black;
+    text-shadow: 2px 2px 2px #0000;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-1{
+    background-image: url(img6.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.bg-2{
+    background-image: url(img8.jpg);
+    width: 100%;
+    height: 600px;
+}
+.bg-3{
+    background-image: url(img7.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.bg-4{
+    background-image: url(img3.jpg);
+    width: 100%;
+    height: 600px;
+}
+.bg-5{
+    background-image: url(img2.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.sec{
+    background-color:white;
+    width: 100%;
+    height: auto;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+    
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+    
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+    
+}
+.bubbles img:nth-child(5){
+    animation-delay: 2s;
+    
+}
+.bubbles img:nth-child(6){
+    animation-delay: 8s;
+    
+} 
+.bubbles img:nth-child(3){
+    animation-delay: 6s;
+    
+}
+
+.bubbles img:nth-child(4){
+    animation-delay: 6s;
+    
+}
+.bubbles img:nth-child(4){
+    animation-delay: 6s;
+    
+}
+
